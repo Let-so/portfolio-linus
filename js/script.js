@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     toggleButton.addEventListener("click", function () {
         body.classList.toggle("dark-mode");
-
+        console.log("Hola")
         // Guardar la preferencia en LocalStorage
         if (body.classList.contains("dark-mode")) {
             localStorage.setItem("dark-mode", "enabled");
